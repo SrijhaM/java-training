@@ -35,6 +35,8 @@ public class AreaShapes
 {
     public static void main(String args[])
     {
+        Shapes s = new Shapes();
+        s.calculate_area();
         Shapes S1 = new square();
         S1.calculate_area();
         Shapes S2 = new circle();
